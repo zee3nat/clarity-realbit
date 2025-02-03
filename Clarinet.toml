@@ -4,6 +4,10 @@ authors = []
 description = ""
 telemetry = false
 requirements = []
+[contracts.ownership-token]
+path = "contracts/ownership-token.clar"
+depends_on = []
+
 [contracts.property-registry]
 path = "contracts/property-registry.clar"
 depends_on = []
